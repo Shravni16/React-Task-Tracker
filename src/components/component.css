@@ -1,0 +1,227 @@
+.home-heading{
+    font-family: "Dancing Script";
+}
+.home-wrapper{
+    display: flex;
+    width: 100vw;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+.home-chota-wrapper{
+    display: flex;
+    flex-direction: column;
+ 
+    align-items: center;
+    margin-bottom: 150px;
+
+}
+.home-link{
+    background-color: rgb(168, 108, 166);
+    text-decoration: none;
+    color: rgb(45, 8, 43);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+}
+/* Colored Checkbox with Tick CSS */
+
+.colored-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #333;
+  border-radius: 4px;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+}
+
+.colored-checkbox:checked {
+  background-color: #4CAF50;
+  border: 2px solid #4CAF50;
+}
+
+.colored-checkbox:checked::before {
+  content: '\2713'; /* Unicode check mark character */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.2em;
+  color: #fff;
+}
+.heading-title{
+  font-size: 22px;
+  padding: 0px;
+  margin: 0px;
+}
+
+
+.dynamic-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, rgba(168, 108, 166, 0.533), #2ecca284);
+    animation: dynamicBackground 5s infinite alternate ease;
+  }
+  
+  @keyframes dynamicBackground {
+    0% {
+      background: linear-gradient(45deg, #2ecca284, rgba(168, 108, 166, 0.533));
+    }
+    100% {
+      background: linear-gradient(45deg, rgba(168, 108, 166, 0.533), #2ecca284);
+    }
+  }
+  .create-wrapper{
+    background-color: #E6E6FA;
+    
+  }
+
+  .create-form{
+    border: 1px solid rgb(150, 147, 147);
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgba(216, 112, 147, 0.589);
+   min-width: 450px;
+    display: flex;
+    flex-direction: column;
+    
+    gap:10px;
+    margin-bottom: 30px;
+  }
+  .title-label{
+    font-size: 18px;
+    font-weight: 500;
+
+    
+  }
+
+  .title-inp{
+    padding: 8px;
+    font-size: 16px;
+    border: 2px solid rgb(174, 172, 172);
+    background-color: rgba(231, 224, 224, 0.781);
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+
+  .normal-label{
+    font-size: 15px;
+    font-weight: 500;
+  }
+
+  .normal-inp{
+    padding: 6px;
+    font-size: 14px;
+    border: 2px solid rgb(174, 172, 172);
+    background-color: rgba(231, 224, 224, 0.781);
+    border-radius: 8px;
+    margin-bottom: 20px;
+  }
+
+  .submit{
+    border: none;
+    width: fit-content;
+    padding: 10px;
+    background-color: rgb(107, 25, 103);
+    color: white;
+    border-radius: 7px;
+    align-self: center;
+    cursor: pointer;
+  }
+
+  .color-btn{
+    
+    background-color: rgb(57, 198, 163);
+    text-decoration: none;
+    color: rgb(253, 253, 255);
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 500;
+  }
+
+  .todo-wrapper{
+    
+    height: 100vh;
+  }
+
+  .todo{
+    border: 2px solid grey;
+    display: flex;
+    margin:auto 300px ;
+    /* justify-content: space-between; */
+    align-items: center;
+    padding: 0px;
+   padding-left: 30px;
+   padding-right: 30px;
+   border-radius: 10px;
+   gap:100px;
+   margin-bottom: 30px;
+   
+  }
+
+  .del-btn{
+    height: fit-content;
+    border: none;
+    background-color: rgb(190, 29, 29);
+    color: white;
+    padding: 6px;
+    border-radius: 6px;
+  
+  }
+ .for-margin{
+  height: 100vh;
+  padding: 45px;
+ }
+ .no-margin-no-padding{
+  padding: 3px;
+  margin: 0px;
+  font-size: 13px;
+ }
+
+ .del-ed{
+  display: flex;
+  gap:20px;
+  margin-left: 120px;
+ }
+ .hr-flex{
+  display: flex;
+  align-items: end;
+  gap: 10px;
+ }
+ .align-self{
+  align-self: center;
+
+ }
+ .full-wid{
+ width: 100vw;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin-left: -20px;
+ }
+ .hor-flex{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+ }
+ .done-btn{
+  width: fit-content;
+  border: none;
+  background-color: #4caf4fec;
+  border-radius: 1px;
+  padding: 3px;
+  margin: 3px;
+ }
+ .no-tasks{
+  text-align: center;
+  margin: 20px;
+  margin-left:70px;
+ }
